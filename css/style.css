@@ -1,0 +1,40 @@
+/*--------NAVBAR------------*/
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #492212;
+}
+.nav-pills > li > a {
+    color: #b06e40;
+}
+/*--------NAVBAR END------------*/
+
+/* Заставка */
+.splash { 
+/* Отступ для содержимого, помещенного в splash */
+padding:12em 0 2em;
+/* Картинка, которая используются для splash */
+background-image:url(../img/bg.jpg);
+/* Масштабируем картинку с сохранением пропорций */
+background-size:cover;
+/* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным */
+background-attachment:fixed;
+/* Цвет текста */
+color:#492212;
+/* Выравниваем текста внутри splash по центру */
+text-align:center;
+}
+.block1 {
+background-color: white;
+padding-top: 6em;
+}
+
+
+
