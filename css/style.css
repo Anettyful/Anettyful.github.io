@@ -278,7 +278,7 @@
       width: 100%;
   }
   .t089__inner {
-      border-top: 2px solid #111;
+     
       border-bottom: 2px solid #111;
       border-left: 2px solid #111;
       padding: 20px;
@@ -292,7 +292,6 @@
   }
    .t087__inner {
       border-left: 2px solid #111;
-      border-bottom: 2px solid #111;
       padding: 20px;
       text-align: left;
   }
