@@ -1,40 +1,40 @@
 /*--------NAVBAR------------*/
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 0px;
-  border: 1px solid transparent;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #492212;
-}
-.nav-pills > li > a {
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #492212;
+  }
+  .nav-pills > li > a {
     color: #b06e40;
-}
+  }
 /*--------NAVBAR END------------*/
 
-/* Заставка */
-.splash { 
-/* Отступ для содержимого, помещенного в splash */
-padding:12em 0 2em;
-/* Картинка, которая используются для splash */
-background-image:url(../img/bg.jpg);
-/* Масштабируем картинку с сохранением пропорций */
-background-size:cover;
-/* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным */
-background-attachment:fixed;
-/* Цвет текста */
-color:#492212;
-/* Выравниваем текста внутри splash по центру */
-text-align:center;
-}
-.block1 {
-background-color: white;
-padding-top: 6em;
-}
+  /* Заставка */
+  .splash { 
+  /* Отступ для содержимого, помещенного в splash */
+  padding:12em 0 2em;
+  /* Картинка, которая используются для splash */
+  background-image:url(../img/bg.jpg);
+  /* Масштабируем картинку с сохранением пропорций */
+  background-size:cover;
+  /* Запрещаем фоновому изображению прокручиваться, т.е. делаем его неподвижным */
+  background-attachment:fixed;
+  /* Цвет текста */
+  color:#492212;
+  /* Выравниваем текста внутри splash по центру */
+  text-align:center;
+  }
+  .block1 {
+  background-color: white;
+  padding-top: 6em;
+  }
 
 /*--------DECORATION------------*/
 
@@ -222,3 +222,112 @@ padding-top: 6em;
 }
 /*--------DECORATION END------------*/
 
+/*--------DECORATION 2 END------------*/
+  @media screen and (max-width: 960px)
+  .t-container {
+      max-width: 640px;
+  }
+  @media screen and (max-width: 1200px)
+  .t-container {
+      max-width: 960px;
+      
+  }
+  .t-container {
+      max-width: 1200px;
+  }
+  .t-container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+  @media screen and (max-width: 960px)
+  .t-col {
+      
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 0;
+ 
+  }
+
+  @media screen and (max-width: 960px)
+  .t-col, .t-col_12 {
+      width: 100%;
+      max-width: 100%;
+  }
+  @media screen and (max-width: 960px)
+  .t-col {
+      display: block;
+  }
+  @media screen and (max-width: 1200px)
+  .t-col_12 {
+      max-width: 940px;
+  }
+  @media screen and (max-width: 1200px)
+  .t-col {
+      display: inline;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 100%;
+  }
+  .t-col_12 {
+      max-width: 1160px;
+  }
+  .t-col {
+      display: inline;
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 100%;
+  }
+  .t089__inner {
+      border-top: 2px solid #111;
+      border-bottom: 2px solid #111;
+      border-left: 2px solid #111;
+      padding: 20px;
+      text-align: left;
+  }
+   .t088__inner {
+      border-right: 2px solid #111;
+      border-bottom: 2px solid #111;
+      padding: 20px;
+      text-align: right;
+  }
+   .t087__inner {
+      border-left: 2px solid #111;
+      border-bottom: 2px solid #111;
+      padding: 20px;
+      text-align: left;
+  }
+  .t089__text {
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .t-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+  }
+
+/*--------DECORATION 2 END------------*/
+
+
+/*------------ FOOTER ----------------*/
+.text-muted {
+    color: #d4a06e;
+
+}
+
+#footer {
+    background-color: #492212;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    
+}
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*------------ FOOTER END ------------*/
